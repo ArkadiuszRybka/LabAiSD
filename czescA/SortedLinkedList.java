@@ -29,7 +29,7 @@ public class SortedLinkedList {
        }
 
        if(previous==null) first=newElem;
-       else previous.next=current;
+       else previous.next=newElem;
        newElem.next=current;
     }
 
